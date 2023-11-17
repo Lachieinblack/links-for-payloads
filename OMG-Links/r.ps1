@@ -7,6 +7,7 @@ Get-Process "explorer"| Stop-Process
 #URL For the Image of your choice (Wanna Cry Ransomware Background)
 $url = "https://c4.wallpaperflare.com/wallpaper/553/61/171/5k-black-hd-mockup-wallpaper-preview.jpg"
 
+mkdir C:\temp
 
 Invoke-WebRequest $url -OutFile C:\temp\test.jpg
 
